@@ -2,9 +2,9 @@
 #Note: No guarantee that this theme will be seen correctly at all screen resolutions available
 #execute only from within the colors-splash folder!
 
-sudo mkdir /lib/plymouth/themes/colors
+sudo mkdir /usr/share/plymouth/themes/colors
 clear
-sudo rsync -aq --exclude=install-colors * /lib/plymouth/themes/colors/
+sudo rsync -aq --exclude=install-colors * /usr/share/plymouth/themes/colors/
 clear
 sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/colors/colors.plymouth 100
 sudo update-alternatives --config default.plymouth  #here, choose the number of the theme you want to use then hit enter
