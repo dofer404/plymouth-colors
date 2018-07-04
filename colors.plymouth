@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Colors
+Description=A theme that features a color-cycled background ala Windows.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/colors
+ScriptFile=/usr/share/plymouth/themes/colors/colors.script
